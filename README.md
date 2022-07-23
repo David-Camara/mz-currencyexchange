@@ -2,13 +2,13 @@
 Converts between foreign currencies and Canadian dollars, and from Canadian dollars to foreign currencies
 
 # Minimum Application Requirements
-Node.js     - v16.13.2
-npm         - v8.1.2
+ - Node.js     - v16.13.2
+ - npm         - v8.1.2
 
 # Steps to Run The Application
 1. Open code in IDE
 2. From a terminal in the IDE navigate to the project folder's root
-3. run the command 'npm i' to install the modules required for the application
+3. Run the command 'npm i' to install the modules required for the application
 4. Once the modules have been installed, run the command 'npm run start'. If that command doesn't work run "node --experimental-json-modules  --no-warnings ./src/index.js"
 5. You will then be prompted in the terminal to answer a series of questions. 
 6. Questions 1 and 2 will prompt you for a currency code based on (ISO 4217) standards. CAD must be one of the submitted values.
