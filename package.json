@@ -1,0 +1,28 @@
+{
+  "name": "mz-currencyexchange",
+  "version": "1.0.0",
+  "description": "Converts between foreign currencies and Canadian dollars, and from Canadian dollars to foreign currencies",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules  --no-warnings ./src/index.js",
+    "test": "jest  --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Camara/mz-currencyexchange.git"
+  },
+  "author": "David Camara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-Camara/mz-currencyexchange/issues"
+  },
+  "homepage": "https://github.com/David-Camara/mz-currencyexchange#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.9",
+    "jest": "^28.1.3"
+  }
+}
